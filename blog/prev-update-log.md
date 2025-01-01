@@ -1,4 +1,9 @@
-Update Log
+<!--
+Author: LoveliestJacob
+Title: Previouse Update Logs
+-->
+
+Previouse Update Logs
 ==========
 
 v1.0.4 - 9/30/2024
