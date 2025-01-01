@@ -6,6 +6,8 @@ Title: Previous Update Logs
 Previous Update Logs
 ==========
 
+This post contains the update log that existed before we started using posts instead. May contain outdated information.
+
 v1.0.4 - 9/30/2024
 ------------------
 
