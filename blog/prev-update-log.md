@@ -1,6 +1,7 @@
 <!--
 Author: LoveliestJacob
 Title: Previous Update Logs
+Summary: Update logs archive.
 -->
 
 Previous Update Logs
