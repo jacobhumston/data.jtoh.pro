@@ -1,6 +1,13 @@
 /*
-**  [[ https://data.jtoh.pro/lists/games.jsonc ]]
-**  List of games (via universe ids) of which jtoh.pro uses.
+**|  [[ https://data.jtoh.pro/lists/games.jsonc ]] (MIT License)
+**|  List of games (via universe ids) of which jtoh.pro uses.
+**|    
+**|  Commented out sections are games that were added but don't have any badges, or are private. 
+**|  Please create a github issue @ https://github.com/jacobhumston/data.jtoh.pro/issues if you would like to add a game.
+**|  You can also submit a pull request as long as you keep the current format. (Please avoid using formatters, they will likely break the whitespace.)
+**|
+**|  Note: This file is JSON with comments. You will likely need a special parser in order to remove the comments. (https://www.npmjs.com/package/jsonc-parser for example.)
+**|                     ^-----------------> https://code.visualstudio.com/docs/languages/json#_json-with-comments
 */
 
 {
@@ -62,5 +69,9 @@
         6905541203, // Venus' Otherworldly Towers            | https://www.roblox.com/games/108616458961493
         1975020264, // Zee's Towers of Anger: Reborn         | https://www.roblox.com/games/5630198391
         1494660838, // Towers of Showers                     | https://www.roblox.com/games/4589295517
+        3544351308, // Derp's Towers of Chaos                | https://www.roblox.com/games/9512282325
+        3028009018, // Shark's Towers of Chaos               | https://www.roblox.com/games/7816269501
+        2393487605, // Sev's Stinky Steeples                 | https://www.roblox.com/games/6427974394
+        4969086597, // The Classic Tower Archive             | https://www.roblox.com/games/14377924053
     ]
 }
