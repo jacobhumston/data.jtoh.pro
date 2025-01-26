@@ -5,51 +5,52 @@
 
 {
     "universeIds": [
-        3264581003, // Juke's Tower of Hell                  // https://www.roblox.com/games/8562822414
-        3762953501, // Caleb's Soul Crushing Domain          // https://www.roblox.com/games/10283991824
-        5488708927, // The Eternal Abyss                     // https://www.roblox.com/games/15873244701
-        1024613407, // Anothers Towers of Stupidity          // https://www.roblox.com/games/2830417603
-        3223228558, // Kosta's Mini Tower Mayhem             // https://www.roblox.com/games/8426160717
-        3410456683, // Thai's Crazy Towers                   // https://www.roblox.com/games/9066198427
-        4610122749, // JToH XL                               // https://www.roblox.com/games/13218032675
-        6114711481, // JToH XXL                              // https://www.roblox.com/games/17846926884
-        5492638944, // The Neat Project                      // https://www.roblox.com/games/15884677229
-        5517576948, // The Baseplate Project                 // https://www.roblox.com/games/15957446104
-        4722260765, // Tower$                                // https://www.roblox.com/games/13594795843
-        6763657131, // Democratically Elected Towers of Hell // https://www.roblox.com/games/116948649505593
-        6567894748, // JToH XXS                              // https://www.roblox.com/games/129574800041492
-        6161824296, // Neats 4 Anarchists                    // https://www.roblox.com/games/18174616215
-        3942316106, // What The Hecc is this Tower?          // https://www.roblox.com/games/10930736150
-        6046643393, // Kiddie's Towers of Hell: Reborn       // https://www.roblox.com/games/17655390153
-        5391388865, // JToH B-Sides                          // https://www.roblox.com/games/15614018993
-        2929752024, // Tower World                           // https://www.roblox.com/games/7534035522
-        3461740235, // Nox's Citadels of Hell                // https://www.roblox.com/games/9237964584
-        2791276072, // Kirk's Towers of Nonsense             // https://www.roblox.com/games/7184682048
-        6303964823, // Community Top Towers                  // https://www.roblox.com/games/18603968759
-        2950339087, // Purist Towers of Hell                 // https://www.roblox.com/games/7593639579
-        6233094773, // lask's towers of dread.               // https://www.roblox.com/games/18386437234
-        6418092453, // Some Other Flood's Towers of Hell     // https://www.roblox.com/games/18950186931
-        6223515632, // JToH XS Project                       // https://www.roblox.com/games/18358123333
-        4794468709, // Red's Trials of Oblivion              // https://www.roblox.com/games/13824714831
-        6319611418, // Vi's Towers of Anguish                // https://www.roblox.com/games/18651848312
-        4835987945, // Verta's Perilous Pillars              // https://www.roblox.com/games/13954977850
-        4919111627, // Tricky Triangles                      // https://www.roblox.com/games/14219047582
-        6703008269, // ultra's rooms of craziness            // https://www.roblox.com/games/97909721013357
-        3837151993, // Ashtro's tower.                       // https://www.roblox.com/games/10561597177
-        5611389606, // Inceptor's Towers of Anemoia          // https://www.roblox.com/games/16261196132
-        6668483932, // Azi's House of Soul Crushing Towers   // https://www.roblox.com/games/83360243495088
-        2331695430, // Wonder's Towers of Awe                // https://www.roblox.com/games/6313850585
-        6990838735, // Obelisk's Yastrocious Towers          // https://www.roblox.com/games/139415539409612
-        6359755394, // Bread's Mini Tower Universe           // https://www.roblox.com/games/18771782919
-        4800071561, // Silver's Towers of Peril              // https://www.roblox.com/games/13842586087
-        1914483151, // Zero’s Tower Game                     // https://www.roblox.com/games/5474839817
-        5850801339, // Requiem Towers                        // https://www.roblox.com/games/17068540514
-        6286161251, // Hecc Defense: Redux                   // https://www.roblox.com/games/18553507169
-        6662717604, // Liam's Insane Towers of Hell          // https://www.roblox.com/games/120244226715929
-        6375085772, // Towers of MLG                         // https://www.roblox.com/games/18816222475
-        2425731184, // The Great Tower Adventure             // https://www.roblox.com/games/6487926520
-        1336172406, // Zeek's Hectic Towers                  // https://www.roblox.com/games/3960771564
-        4006869680, // Clever's Summit of Towers             // https://www.roblox.com/games/11229853040
-        6102702917, // dac's towers                          // https://www.roblox.com/games/17813010916
+        3264581003, // Juke's Tower of Hell                  | https://www.roblox.com/games/8562822414
+//      162391357,  // Kiddies Tower of Hell                 | https://www.roblox.com/games/427657430
+        3762953501, // Caleb's Soul Crushing Domain          | https://www.roblox.com/games/10283991824
+        5488708927, // The Eternal Abyss                     | https://www.roblox.com/games/15873244701
+        1024613407, // Anothers Towers of Stupidity          | https://www.roblox.com/games/2830417603
+        3223228558, // Kosta's Mini Tower Mayhem             | https://www.roblox.com/games/8426160717
+        3410456683, // Thai's Crazy Towers                   | https://www.roblox.com/games/9066198427
+        4610122749, // JToH XL                               | https://www.roblox.com/games/13218032675
+        6114711481, // JToH XXL                              | https://www.roblox.com/games/17846926884
+        5492638944, // The Neat Project                      | https://www.roblox.com/games/15884677229
+        5517576948, // The Baseplate Project                 | https://www.roblox.com/games/15957446104
+        4722260765, // Tower$                                | https://www.roblox.com/games/13594795843
+        6763657131, // Democratically Elected Towers of Hell | https://www.roblox.com/games/116948649505593
+        6567894748, // JToH XXS                              | https://www.roblox.com/games/129574800041492
+        6161824296, // Neats 4 Anarchists                    | https://www.roblox.com/games/18174616215
+        3942316106, // What The Hecc is this Tower?          | https://www.roblox.com/games/10930736150
+        6046643393, // Kiddie's Towers of Hell: Reborn       | https://www.roblox.com/games/17655390153
+        5391388865, // JToH B-Sides                          | https://www.roblox.com/games/15614018993
+        2929752024, // Tower World                           | https://www.roblox.com/games/7534035522
+        3461740235, // Nox's Citadels of Hell                | https://www.roblox.com/games/9237964584
+        2791276072, // Kirk's Towers of Nonsense             | https://www.roblox.com/games/7184682048
+        6303964823, // Community Top Towers                  | https://www.roblox.com/games/18603968759
+        2950339087, // Purist Towers of Hell                 | https://www.roblox.com/games/7593639579
+        6233094773, // lask's towers of dread.               | https://www.roblox.com/games/18386437234
+        6418092453, // Some Other Flood's Towers of Hell     | https://www.roblox.com/games/18950186931
+        6223515632, // JToH XS Project                       | https://www.roblox.com/games/18358123333
+        4794468709, // Red's Trials of Oblivion              | https://www.roblox.com/games/13824714831
+        6319611418, // Vi's Towers of Anguish                | https://www.roblox.com/games/18651848312
+        4835987945, // Verta's Perilous Pillars              | https://www.roblox.com/games/13954977850
+        4919111627, // Tricky Triangles                      | https://www.roblox.com/games/14219047582
+        6703008269, // ultra's rooms of craziness            | https://www.roblox.com/games/97909721013357
+        3837151993, // Ashtro's tower.                       | https://www.roblox.com/games/10561597177
+        5611389606, // Inceptor's Towers of Anemoia          | https://www.roblox.com/games/16261196132
+        6668483932, // Azi's House of Soul Crushing Towers   | https://www.roblox.com/games/83360243495088
+        2331695430, // Wonder's Towers of Awe                | https://www.roblox.com/games/6313850585
+        6990838735, // Obelisk's Yastrocious Towers          | https://www.roblox.com/games/139415539409612
+        6359755394, // Bread's Mini Tower Universe           | https://www.roblox.com/games/18771782919
+        4800071561, // Silver's Towers of Peril              | https://www.roblox.com/games/13842586087
+        1914483151, // Zero’s Tower Game                     | https://www.roblox.com/games/5474839817
+        5850801339, // Requiem Towers                        | https://www.roblox.com/games/17068540514
+        6286161251, // Hecc Defense: Redux                   | https://www.roblox.com/games/18553507169
+        6662717604, // Liam's Insane Towers of Hell          | https://www.roblox.com/games/120244226715929
+        6375085772, // Towers of MLG                         | https://www.roblox.com/games/18816222475
+        2425731184, // The Great Tower Adventure             | https://www.roblox.com/games/6487926520
+        1336172406, // Zeek's Hectic Towers                  | https://www.roblox.com/games/3960771564
+        4006869680, // Clever's Summit of Towers             | https://www.roblox.com/games/11229853040
+        6102702917, // dac's towers                          | https://www.roblox.com/games/17813010916
     ]
 }
