@@ -1,3 +1,8 @@
+/*
+**  [[ https://data.jtoh.pro/lists/games.jsonc ]]
+**  List of games (via universe ids) of which jtoh.pro uses.
+*/
+
 {
     "universeIds": [
         3264581003, // Juke's Tower of Hell                  // https://www.roblox.com/games/8562822414
@@ -20,6 +25,7 @@
         2929752024, // Tower World                           // https://www.roblox.com/games/7534035522
         3461740235, // Nox's Citadels of Hell                // https://www.roblox.com/games/9237964584
         2791276072, // Kirk's Towers of Nonsense             // https://www.roblox.com/games/7184682048
-        6303964823  // Community Top Towers                  // https://www.roblox.com/games/18603968759
+        6303964823, // Community Top Towers                  // https://www.roblox.com/games/18603968759
+        2950339087  // Purist Towers of Hell                 // https://www.roblox.com/games/7593639579
     ]
 }
