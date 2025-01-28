@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run duplicate check
-        run: node scripts/check-duplicates.js
+        run: node .github/scripts/check-duplicates.js
 
       - name: Create GitHub issue if duplicates found
         if: failure()
