@@ -4,7 +4,7 @@ const jsonc = require('jsonc-parser');
 const { Octokit } = require('@octokit/rest');
 
 // const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const octokit = new Octokit({ auth: GITHUB_TOKEN });
+// const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
 const directoryPath = path.join(__dirname, '../lists');
 const warningFilePath = path.join(__dirname, '../duplicate-warnings.txt');
