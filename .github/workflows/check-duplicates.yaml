@@ -1,0 +1,45 @@
+name: "Duplicate Check"
+
+on: [push, pull_request]
+
+jobs:
+    check-duplicates:
+        name: "Check for Duplicates"
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Checkout Repository"
+              uses: actions/checkout@v4
+            
+            - name: "Install Bun"
+              uses: oven-sh/setup-bun@v2
+              with:   
+                bun-version: latest
+            
+            - name: "Install Dependencies"
+              run: bun install
+            
+            - name: "Check for Duplicates"
+              run: bun run .github/scripts/check-duplicates.ts
+
+    pr_error:
+        runs-on: ubuntu-latest
+        if: failure() && github.event_name == 'pull_request'
+        steps:
+            - name: "Comment on Pull Request"
+              uses: thollander/actions-comment-pull-request@v2
+              with:
+                  message: '⚠️ **Workflow failed!** *(check-duplicates)* Please fix as soon as possible. For more info, please see: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+
+            - name: "Add Label to Pull Request"
+              uses: actions-ecosystem/action-add-labels@v1
+              with:
+                  labels: "workflow failed"
+    
+    push_error:
+        runs-on: ubuntu-latest
+        if: failure() && github.event_name == 'push'
+        steps:
+            - name: "Comment on Commit"
+              uses: peter-evans/commit-comment@v3
+              with:
+                  body: '⚠️ **Workflow failed!** *(check-duplicates)* Please fix as soon as possible. For more info, please see: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
