@@ -25,7 +25,7 @@ function check(parsed: any) {
 
 for (const file of files) {
     const parsed = jsonc.parse(fs.readFileSync(`./lists/${file}`, "utf-8"));
-    console.log(`Parsed ${file}!`, JSON.stringify(parsed));
+    // console.log(`Parsed ${file}!`, JSON.stringify(parsed));
     console.log(`Checking ${file}...`);
     check(parsed);
 }
