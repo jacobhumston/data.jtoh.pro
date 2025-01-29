@@ -5,11 +5,7 @@ const files = fs.readdirSync("./lists");
 const duplicates: any[] = [];
 
 function check(parsed: any) {
-    if (typeof parsed === "object") {
-        for (const value of Object.values(parsed)) {
-            check(value);
-        }
-    } else if (Array.isArray(parsed)) {
+    if (Array.isArray(parsed)) {
         const values: any[] = [];
         for (const value of parsed) {
             if (values.includes(value)) {
@@ -20,12 +16,17 @@ function check(parsed: any) {
                 console.log("Pushing value...", value);
             }
         }
+    } else if (typeof parsed === "object") {
+        for (const value of Object.values(parsed)) {
+            check(value);
+        }
     }
 }
 
 for (const file of files) {
-    console.log(`Checking ${file}...`);
     const parsed = jsonc.parse(fs.readFileSync(`./lists/${file}`, "utf-8"));
+    console.log(`Parsed ${file}!`, JSON.stringify(parsed));
+    console.log(`Checking ${file}...`);
     check(parsed);
 }
 
