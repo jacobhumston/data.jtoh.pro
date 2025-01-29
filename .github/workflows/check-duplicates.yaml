@@ -30,7 +30,7 @@ jobs:
               uses: actions/checkout@v4
 
             - name: "Comment on Pull Request"
-              uses: thollander/actions-comment-pull-request@v2
+              uses: thollander/actions-comment-pull-request@v3
               with:
                   message: '⚠️ **Workflow failed!** *(check-duplicates)* Please fix as soon as possible. For more info, please see: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
 
@@ -39,15 +39,15 @@ jobs:
               with:
                   labels: "workflow failed"
     
-#    push-error:
-#        runs-on: ubuntu-latest
-#        if: failure() && github.event_name == 'push'
-#        needs: check-duplicates
-#        steps:
-#            - name: "Checkout Repository"
-#              uses: actions/checkout@v4
-#
-#            - name: "Comment on Commit"
-#              uses: peter-evans/commit-comment@v3
-#              with:
-#                  body: '⚠️ **Workflow failed!** *(check-duplicates)* Please fix as soon as possible. For more info, please see: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+    push-error:
+        runs-on: ubuntu-latest
+        if: failure() && github.event_name == 'push'
+        needs: check-duplicates
+        steps:
+            - name: "Checkout Repository"
+              uses: actions/checkout@v4
+
+            - name: "Comment on Commit"
+              uses: peter-evans/commit-comment@v3
+              with:
+                  body: '⚠️ **Workflow failed!** *(check-duplicates)* Please fix as soon as possible. For more info, please see: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
