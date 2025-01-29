@@ -10,10 +10,10 @@ function check(parsed: any) {
         for (const value of parsed) {
             if (values.includes(value)) {
                 duplicates.push(value);
-                console.log("Duplicate value found!", value);
+                // console.log("Duplicate value found!", value);
             } else {
                 values.push(value);
-                console.log("Pushing value...", value);
+                // console.log("Pushing value...", value);
             }
         }
     } else if (typeof parsed === "object") {

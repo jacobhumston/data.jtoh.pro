@@ -21,9 +21,10 @@ jobs:
             - name: "Check for Duplicates"
               run: bun run .github/scripts/check-duplicates.ts
 
-    pr_error:
+    pr-error:
         runs-on: ubuntu-latest
         if: failure() && github.event_name == 'pull_request'
+        needs: check-duplicates
         steps:
             - name: "Comment on Pull Request"
               uses: thollander/actions-comment-pull-request@v2
@@ -35,9 +36,10 @@ jobs:
               with:
                   labels: "workflow failed"
     
-    push_error:
+    push-error:
         runs-on: ubuntu-latest
         if: failure() && github.event_name == 'push'
+        needs: check-duplicates
         steps:
             - name: "Comment on Commit"
               uses: peter-evans/commit-comment@v3
