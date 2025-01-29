@@ -14,14 +14,17 @@ function check(parsed: any) {
         for (const value of parsed) {
             if (values.includes(value)) {
                 duplicates.push(value);
+                console.log("Duplicate value found!", value);
             } else {
                 values.push(value);
+                console.log("Pushing value...", value);
             }
         }
     }
 }
 
 for (const file of files) {
+    console.log(`Checking ${file}...`);
     const parsed = jsonc.parse(fs.readFileSync(`./lists/${file}`, "utf-8"));
     check(parsed);
 }
