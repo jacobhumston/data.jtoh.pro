@@ -23,6 +23,7 @@ jobs:
 
     pr-error:
         runs-on: ubuntu-latest
+        permissions: write-all
         if: failure() && github.event_name == 'pull_request'
         needs: check-duplicates
         steps:
@@ -41,6 +42,7 @@ jobs:
     
     push-error:
         runs-on: ubuntu-latest
+        permissions: write-all
         if: failure() && github.event_name == 'push'
         needs: check-duplicates
         steps:
