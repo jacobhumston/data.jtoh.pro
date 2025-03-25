@@ -1,7 +1,7 @@
 <!--
 Author: LoveliestJacob
 Title: Version 2 update is finally here!
-Summary: V2 of jtoh.pro has finally released after months of work. Bring new features and an overhaul to the website.
+Summary: V2 of jtoh.pro has finally released after months of work. Bringing new features and an overhaul to the website.
 -->
 
 # Version 2 is here!
