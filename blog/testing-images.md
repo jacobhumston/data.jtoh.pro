@@ -7,4 +7,4 @@ Summary: testing images
 # please ignore!
 currently testing images in blog posts!
 
-![](blog-assets/A5LMjmmV3L.png)
+![](https://github.com/jacobhumston/data.jtoh.pro/blob/main/blog-assets/A5LMjmmV3L.png?raw=true)
