@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Variable Showcase</title>
+  <style>
+    :root {
+      --color-text: #e9e9e9c4;
+      --color-text-darker: rgba(185, 185, 185, 0.521);
+      --color-background: #222222;
+      --color-background-lighter: rgba(75, 75, 75, 0.973);
+      --color-text-link: #70b5ffda;
+      --color-text-header: #9a71f8c9;
+      --color-text-bold: #b58dffde;
+      --color-background-darker: #2b2a2ade;
+      --color-background-even-more-darker: #1d1d1d;
+      --color-text-highlight: #ffd54cd3;
+      --color-success: #58a35a;
+      --color-error: #ff5a5a;
+      --leaderboard-row-background: rgba(255, 251, 255, 0);
+      --leaderboard-row-background-part2: rgba(18, 18, 18, 1);
+      --leaderboard-first: #5aa6b8;
+      --leaderboard-second: #f4ff79;
+      --leaderboard-third: #815a5a;
+      --transparent: #00000000;
+      --color-text-bold-no-transparency: #9470d8;
+    }
+
+    body {
+      background: var(--color-background);
+      color: var(--color-text);
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: var(--color-text-header);
+      text-align: center;
+    }
+
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .color-item {
+      background-color: var(--color-background-lighter);
+      border: 1px solid var(--color-background-darker);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .color-sample {
+      width: 100%;
+      height: 2rem;
+      border-radius: 0.3rem;
+      margin: 0.5rem 0;
+    }
+
+    .color-name {
+      font-size: 0.9rem;
+      color: var(--color-text-darker);
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Variables Showcase</h1>
+  <div class="color-grid">
+    <script>
+      const variables = [
+        "--color-text",
+        "--color-text-darker",
+        "--color-background",
+        "--color-background-lighter",
+        "--color-text-link",
+        "--color-text-header",
+        "--color-text-bold",
+        "--color-background-darker",
+        "--color-background-even-more-darker",
+        "--color-text-highlight",
+        "--color-success",
+        "--color-error",
+        "--leaderboard-row-background",
+        "--leaderboard-row-background-part2",
+        "--leaderboard-first",
+        "--leaderboard-second",
+        "--leaderboard-third",
+        "--transparent",
+        "--color-text-bold-no-transparency"
+      ];
+
+      const grid = document.querySelector(".color-grid");
+
+      variables.forEach(name => {
+        const value = getComputedStyle(document.documentElement).getPropertyValue(name);
+        const div = document.createElement("div");
+        div.className = "color-item";
+        div.innerHTML = `
+          <div class="color-name">${name}</div>
+          <div class="color-sample" style="background:${value}"></div>
+          <div style="font-size: 0.8rem;">${value.trim()}</div>
+        `;
+        grid.appendChild(div);
+      });
+    </script>
+  </div>
+</body>
+</html>
